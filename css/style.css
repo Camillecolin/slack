@@ -1,0 +1,259 @@
+body{
+  padding: 0;
+  margin: 0 ;
+  background-image: url(../img/neutrino-observatory-header-image.jpg);
+  background-size: 160%;
+}
+
+@media only screen and (max-width: 480px) {
+  body{
+
+  }
+}
+
+div{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .slack .logo{
+height: 10%;
+width: 10%;
+}
+
+nav .slack .top{
+display: flex;
+list-style-type: none;
+justify-content: flex-end;
+flex-direction: row;
+flex-wrap: nowrap;
+padding-top: 2px;
+}
+
+.li{
+  padding-right: 100px;
+}
+
+nav .slack .top li {
+margin: -3px 15px;
+color: white;
+font-family: lato;
+font-weight: bold;
+font-size: 90%;
+display: flex;
+align-items: center;
+padding-left: -30px;
+}
+
+.border{
+  border: 1px solid;
+  padding: 4px;
+}
+
+a{
+text-decoration: none;
+}
+
+.smplnc{
+height:100%;
+width: 110%;
+display: flex;
+justify-content: center;
+text-align: center;
+border-radius: 10%;
+margin-top: 3px;
+margin-right: -60px;
+}
+
+h1{
+display: flex;  justify-content: center;  margin-top: auto;
+color: white;
+font-family: lato;
+font-size: 350%;
+margin-top: 100px;
+}
+
+h2{
+display: flex;
+justify-content: center;
+margin-top: auto;
+color: white;
+font-family: lato;
+font-size: 100%;
+margin-top: 10px;
+}
+
+.formulaire{
+background-color: rgba(174,180,180,.5);
+padding: 19px 56px;
+border-radius: 10px;
+margin-left: 25%;
+display: flex;
+flex-direction: column;
+width: 40%;
+height: 10%;
+align-items: center;
+}
+
+.content{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.button{
+border-radius: 10px;
+text-decoration: none;
+width: 185px;
+height: 50px;
+transition: all .4s ease-in;
+margin-bottom: 100px;
+align-items: center;
+justify-content: center;
+font-family: lato;
+font-weight: bold;
+font-size: 100%;
+border: 1px solid #56B68B;
+background: #56B68B;
+margin-left: 10px;
+}
+
+.button a{
+color: white;
+}
+
+.email{
+width: 240px;
+height: 40px;
+margin-bottom: 100px;
+}
+
+.signin{
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+margin-top: -100px;
+font-family: lato;
+}
+
+.already{
+text-decoration: underline;
+cursor:pointer;
+}
+
+.icecube{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+font-family: lato;
+color: white;
+cursor:pointer;
+}
+
+.icecube:hover{
+  text-decoration: underline;
+}
+
+.icebold{
+font-weight: bold;
+}
+
+footer .bar{
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 43%, rgba(0,0,0,0.9) 100%);
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 43%,rgba(0,0,0,0.9) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,0) 43%,rgba(0,0,0,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#e6000000',GradientType=0 );
+}
+
+.bar{
+opacity: 0.3
+}
+
+.usingslack{
+display: flex;
+justify-content: space-around;
+}
+
+.whitetitle{
+color: white;
+}
+
+.menu ul{
+margin: 0;
+padding: 30px 0;
+list-style-type: none;
+color:#9E9EA6;
+font-family: lato;
+
+}
+
+.menu ul li{
+padding-top: 10px;
+}
+
+.foot1{
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) -12%, rgba(0,0,0,0.9) 15%);
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) -12%,rgba(0,0,0,0.9) 15%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) -12%,rgba(0,0,0,0.9) 15%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#e6000000',GradientType=0 );
+  opacity: 0.8;
+}
+
+.kalashfamas{
+width: 100%;
+background-color: rgb(31,31,31);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.fa-slack{
+margin-left: 245px;
+margin-top: 12px;
+margin-bottom: 8px;
+}
+
+.footerslack{
+color: grey;
+}
+
+.footer-slack:hover{
+color: white;
+}
+
+.contactus{
+color: white;
+font-size: 14px;
+font-family: lato;
+font-weight: normal;
+margin-right: 12px;
+}
+
+.izifooter{
+display: flex;
+flex-direction: row;
+margin-right: 215px;
+align-items: center;
+}
+
+.fa-twitter{
+color: grey;
+margin-right: 10px;
+}
+
+.fa-youtube-play{
+color:grey;
+}
+
+.fa-twitter:hover{
+color: white;
+}
+
+.fa-youtube-play:hover{
+color: white;
+}
